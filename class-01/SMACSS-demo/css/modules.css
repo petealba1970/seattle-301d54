@@ -1,0 +1,54 @@
+#top { 
+    width: 480px;
+    height: 75px ;
+    border: solid black;
+}
+#second{
+    width: 480px;
+    height: 150px;
+    color: red;
+    border: solid black;
+
+}
+#third{
+    width: 480px;
+    height: 125px;
+    color: green;
+    border: solid black;
+
+}
+#fourth{
+    width: 480px;
+    height: 125px;
+    border: solid black;
+}
+#fifth{
+    width: 240px;
+    height: 250px;
+    border: solid black;
+    float: left;
+    
+}
+#sixth{
+    width: 240px;
+    height: 250px;
+    border: solid black;
+    float: right;   
+}
+#seventh{
+    width: 240Px;
+    height: 250px;
+    border: solid black;
+    float: left;
+}
+#eighth{
+    width: 240Px;
+    height: 250px;
+    border: solid black;
+    float: right;
+}
+#ninth{
+    width: 480px;
+    height: 80px;
+    border: solid black;
+}
