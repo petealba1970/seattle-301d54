@@ -34,12 +34,22 @@ function displayPics(){
     while(!viewed.includes(rando)){
       viewed.push(rando);
     }
+    console.log(rando);
   }
+<<<<<<< HEAD
   // Since const is defined only in the block of code it is being used for, it came up as undefined
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
     let temp = viewed.shift();
+=======
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+  // PUT YOUR RESPONSE IN THIS COMMENT
+  console.log(viewed);
+
+  for (let i = 0; i < 3; i++){
+    const temp = viewed.shift();
+>>>>>>> 51c277e77d618356e4947fe3b3cd4ffccfad4af2
     pics[i].src = allProducts[temp].path;
     pics[i].id = allProducts[temp].name;
     allProducts[temp].views += 1;
@@ -70,8 +80,13 @@ function handleClick(event) {
 
 function showList() {
   for(let i = 0; i < allProducts.length; i++) {
+<<<<<<< HEAD
     let liEl = document.createElement('li');
     liEl.textContent = `${allProducts[i].name} has ${allProducts[i].votes} votes in ${allProducts[i].views} views`;
+=======
+    const liEl = document.createElement('li');
+    liEl.textContent = allProducts[i].name + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
+>>>>>>> 51c277e77d618356e4947fe3b3cd4ffccfad4af2
     list.appendChild(liEl);
   }
 }
