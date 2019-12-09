@@ -1,3 +1,8 @@
+
+
+body{
+  width: 960px;
+}
 #top { 
     width: 480px;
     height: 75px ;
@@ -86,9 +91,8 @@
     order: 9;
 }
 @media (min-width:768px){
-    body{
-      width: 960px;
-    }
+   
+    
   
     #top{
       height: 100px;
@@ -193,4 +197,113 @@
       float: right;
       order:9;
     }
+}
+@media (max-width:768px){
+   
+    
+  
+  #top{
+    height: 100px;
+    width: 960px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+    order: 1;
   }
+  
+  #second{
+    height: 600px;
+    width: 200px;
+    text-align: center;
+    line-height: 600px;
+    border: 1px solid black;
+    background-color:white;
+    float: left;
+    order:2;
+  }
+  
+  #third{
+    height: 200px;
+    width: 380px;
+    text-align: center;
+    line-height: 200px;
+    border: 1px solid black;
+    float: right;
+    background-color: blue;
+    order: 3;
+  }
+  
+  #fourth{
+    background-color: rgb(0, 255, 34);
+    height: 200px;
+    width: 380px;
+    text-align: center;
+    line-height: 200px;
+    border: 1px solid black;
+    float: right;
+    background-color: blue;
+    order: 4;
+   
+  }
+  
+  #fifth {
+    height: 250px;
+    width: 190px;
+    text-align: center;
+    line-height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 0;
+    background-color: red;
+    order:5;
+
+  }
+  #sixth {
+    height: 250px;
+    width: 190px;
+    text-align: center;
+    line-height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 0;
+    background-color: red;
+    order:6;
+
+  }
+
+  #seventh {
+    height: 250px;
+    width: 190px;
+    text-align: center;
+    line-height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 0;
+    background-color: red;
+    order:7;
+  }
+  #eighth {
+    height: 250px;
+    width: 190px;
+    text-align: center;
+    line-height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 0;
+    background-color: red;
+    order:8;
+  }
+  
+  #ninth{
+    height: 150px;
+    width: 760px;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid black;
+    background-color: lightgray;
+    float: right;
+    order:9;
+  }
+}
+
