@@ -1,12 +1,15 @@
 /* positions, structure, width, height*/
+body {
+  flex-direction: row;
+}
 section{
   width: 200px;
   height: 200px;
   border: 2px red solid;
   margin: auto;
-<<<<<<< HEAD
-  width: 960px;
+  /* width: 960px; */
 }
+
 
 div{
   background-color: green;
@@ -14,18 +17,16 @@ div{
   height: 250px;
  
   
-=======
->>>>>>> 51c277e77d618356e4947fe3b3cd4ffccfad4af2
 }
 
 @media only screen and (min-width:500px){
-  div{
-    height: 600px;
-    width: 600px;
-    margin: auto; 
+ 
   }
 
   section{
     float: left;
   }
+
+@media only screen and (min-width:500px){
+
 }

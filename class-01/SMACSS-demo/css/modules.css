@@ -5,6 +5,7 @@
     text-align: center;
     line-height: 75px;
     background-color: orange;
+    order: 1;
 }
 #second{
     width: 480px;
@@ -13,6 +14,7 @@
     text-align: center;
     line-height: 150px;
     background-color:white;
+    order: 2;
 
 }
 #third{
@@ -23,6 +25,7 @@
     text-align: center;
     line-height: 125px;
     background-color:blue;
+    order: 3;
 
 }
 #fourth{
@@ -32,6 +35,7 @@
     text-align: center;
     line-height: 125px;
     background-color:blue;
+    order: 4;
     
 }
 #fifth{
@@ -42,6 +46,7 @@
     text-align: center;
     line-height: 250px;
     background-color:green;
+    order: 5;
     
 }
 #sixth{
@@ -51,6 +56,8 @@
     float: right;   
     text-align: center;
     line-height: 250px;
+    order: 6;
+
 }
 #seventh{
     width: 240Px;
@@ -59,6 +66,7 @@
     float: left;
     text-align: center;
     line-height: 250px;
+    order: 7;
 }
 #eighth{
     width: 240Px;
@@ -67,6 +75,7 @@
     float: right;
     text-align: center;
     line-height: 250px;
+    order: 8;
 }
 #ninth{
     width: 480px;
@@ -74,6 +83,7 @@
     border: solid black;
     text-align: center;
     line-height: 80px;
+    order: 9;
 }
 @media (min-width:768px){
     body{
